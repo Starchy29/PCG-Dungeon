@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class DungeonGenerator : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start() {
+        GenerateDungeon(5);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void GenerateDungeon(int dimensions) {
+        RoomType[,] roomGrid = new RoomType[dimensions, dimensions];
+
     }
 }
